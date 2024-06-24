@@ -15,6 +15,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO users (name,date_column) VALUES ('{{(Table1.newRow || {}).name}}','{{(Table1.newRow || {}).date_column}}')",
